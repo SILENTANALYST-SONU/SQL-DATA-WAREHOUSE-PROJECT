@@ -106,7 +106,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Hi there! I'm **Baraa Khatib Salkini**, also known as **Data With Baraa**. I’m an IT professional and passionate YouTuber on a mission to share knowledge and make working with data enjoyable and engaging!
+Hello, my name is **SONUKUMAR YADAV**, and I am a passionate Data Analyst with a strong focus on transforming raw data into meaningful insights that drive smarter business decisions.I believe that every dataset has a story, and my role as a data analyst is to decode that story and communicate it effectively to stakeholders.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 [![LinkedIn]
