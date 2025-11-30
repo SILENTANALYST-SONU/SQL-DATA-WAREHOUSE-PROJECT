@@ -109,7 +109,8 @@ Hello, My name is **SONUKUMAR YADAV**, and I am a passionate **Data Analyst** wi
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-[![LinkedIn](https://www.linkedin.com/in/sonu-kumar-yadav-sky?)
+[![LinkedIn]![LinkedinGIF](https://github.com/user-attachments/assets/8a02cf89-4cad-4961-955c-01e4279d09c5)
+(https://www.linkedin.com/in/sonu-kumar-yadav-sky?)
 
 [![Hackerank](https://www.hackerrank.com/profile/h2203051050556)
 
