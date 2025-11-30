@@ -1,6 +1,8 @@
 /*
   This script checks the current state and operations performed in this database.
-*/
+  Use this script alone after completing particular layer query to check various operation.
+  Run every query one by one.
+*/.
 
 -- To see which database you are currently inside:--
 SELECT DB_NAME() AS CurrentDatabase;
