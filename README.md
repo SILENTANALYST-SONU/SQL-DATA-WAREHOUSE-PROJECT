@@ -108,6 +108,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 Hello, My name is **SONUKUMAR YADAV**, and I am a passionate **Data Analyst** with a strong focus on transforming raw data into meaningful insights that drive smarter business decisions.I believe that every dataset has a story, and my role as a data analyst is to decode that story and communicate it effectively to stakeholders.
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/sonu-kumar-yadav-sky?)
 [![Hackerank](https://www.hackerrank.com/profile/h2203051050556)
 [![Codechef](https://www.codechef.com/users/sky_360_coder)
