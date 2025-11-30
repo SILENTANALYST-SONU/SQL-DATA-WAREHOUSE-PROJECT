@@ -1,1 +1,83 @@
+/*
+  This script checks the current state and operations performed in this database.
+*/
+
+-- To see which database you are currently inside:--
+SELECT DB_NAME() AS CurrentDatabase;
+
+--To switch to your DB which you want to use:--
+USE DataWarehouse;
+GO
+
+--To see all SCHEMAS in the current warehouse DB:--
+SELECT name AS SchemaName
+FROM sys.schemas
+ORDER BY name;
+
+--To see only warehouse-related schemas (bronze, silver, gold):--
+SELECT name AS SchemaName
+FROM sys.schemas
+WHERE name IN ('bronze','silver','gold');
+
+--See all tables inside the Bronze schema --
+SELECT t.name AS TableName
+FROM sys.tables t
+JOIN sys.schemas s ON t.schema_id = s.schema_id
+WHERE s.name = 'bronze'
+ORDER BY t.name;
+
+ --See data inside ANY bronze table (Same for other schema)--
+ SELECT * FROM bronze.crm_cust_info;
+   --CRM TABLES--
+SELECT TOP 100 * FROM bronze.crm_cust_info;
+SELECT TOP 100 * FROM bronze.crm_prd_info;
+SELECT TOP 100 * FROM bronze.crm_sales_details;
+   --ERP TABLES--
+SELECT TOP 100 * FROM bronze.erp_loc_a101;
+SELECT TOP 100 * FROM bronze.erp_cust_az12;
+SELECT TOP 100 * FROM bronze.erp_px_cat_g1v2;
+
+--To see table name inside silver schema-- 
+SELECT t.name AS TableName
+FROM sys.tables t
+JOIN sys.schemas s ON t.schema_id = s.schema_id
+WHERE s.name = 'silver'
+ORDER BY t.name;
+
+--To see info particular table in silver schema--
+SELECT TOP 100 * FROM silver.erp_loc_a101;
+
+--To see table inside gold schema--
+SELECT 
+    TABLE_SCHEMA,
+    TABLE_NAME 
+FROM INFORMATION_SCHEMA.VIEWS
+WHERE TABLE_SCHEMA = 'gold';
+
+--Describe column structure of a Gold table/view--
+SELECT 
+    COLUMN_NAME, 
+    DATA_TYPE, 
+    CHARACTER_MAXIMUM_LENGTH 
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA = 'gold'
+  AND TABLE_NAME = 'dim_customers';
+
+  SELECT * FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_SCHEMA = 'gold' 
+  AND TABLE_NAME = 'dim_products';
+
+SELECT * FROM INFORMATION_SCHEMA.COLUMNS 
+WHERE TABLE_SCHEMA = 'gold' 
+  AND TABLE_NAME = 'fact_sales';
+
+
+--Find the schema + type (TABLE or VIEW)--
+  SELECT 
+    TABLE_SCHEMA,
+    TABLE_NAME 
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_NAME = 'fact_sales';
+
+
 
