@@ -109,10 +109,14 @@ Hello, My name is **SONUKUMAR YADAV**, and I am a passionate **Data Analyst** wi
 
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)(https://www.linkedin.com/in/sonu-kumar-yadav-sky?)
+[![LinkedIn](https://www.linkedin.com/in/sonu-kumar-yadav-sky?)
+
 [![Hackerank](https://www.hackerrank.com/profile/h2203051050556)
+
 [![Codechef](https://www.codechef.com/users/sky_360_coder)
+
 [![Unstop](https://unstop.com/u/sonuyad84643)
+
 [![GitHub](https://github.com/SILENTANALYST-SONU)
 
 *********************************************************************THANK YOU*********************************************************************
