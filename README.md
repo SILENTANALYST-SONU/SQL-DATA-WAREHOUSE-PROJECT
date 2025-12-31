@@ -20,6 +20,14 @@ This project involves:
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+---
+## 🎬 Project Explaination
+## 🎬 Project Demo
+
+![Demo GIF](assets/demo.gif)
+
+👉 [Full Video Here]()
+
 
 ## 🧑‍💻This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
