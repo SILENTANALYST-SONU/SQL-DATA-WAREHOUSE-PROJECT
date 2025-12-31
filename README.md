@@ -22,7 +22,6 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 ---
 ## 🎬 Project Explaination
-![Demo GIF](assets/demo.gif)
 👉 [Full Video Here](Asset/SQL_Data_Warehouse_Project .mp4)
 
 ----
