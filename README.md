@@ -22,12 +22,10 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 ---
 ## 🎬 Project Explaination
-## 🎬 Project Demo
-
 ![Demo GIF](assets/demo.gif)
+👉 [Full Video Here](Asset/SQL_Data_Warehouse_Project .mp4)
 
-👉 [Full Video Here]()
-
+----
 
 ## 🧑‍💻This repository is an excellent resource for professionals and students looking to showcase expertise in:
 - SQL Development
